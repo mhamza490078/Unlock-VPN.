@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first a{ 
+    text-decoration: none;
+    color: black;
+}
+#lock{
+    padding: 31px 110px ;
+    background-image: url(assests/vpn\ lock.png);
+    background-repeat: no-repeat;
+    background-size: 83px 71px;
+    background-position: 30px 2px;
+    cursor: pointer;
+}
+#lock:hover{
+    color: blue;
+}
+#anchor{
+    padding: 30px;
+    margin: 4px -83px;
+}
+#anchor a{
+   
+    margin-left: 20px ;
+}
+#anchor a:hover{
+    color: blue;
+}
+.first  button{
+    border: none;
+    font-size: larger;
+    color: black;
+    cursor: pointer; 
+    background-color: white;
+}
+.first  button:hover{
+    color: blue;
+}
+#login{
+    padding-right: 15px;
+    /* background-image: url(assests/user-regular.svg); */
+    background-repeat: no-repeat;
+    padding: 2px 20px;   
+}
+#login:hover{
+    color: blue;
+}
+#line{
+    border: none;
+    background-color: darkgray;
+    height: 25px;
+    border-radius: 5px ;
+}
+#lastb{
+    border: 2px solid orange;
+    cursor: pointer;
+    font-size: larger;
+    width: 236px;
+    border-radius: 10px;
+    background-color: orange;
+
+}
+#lastb:hover{
+    color: wheat;
+}
+.slast{
+    margin-left: 200px;
+}
+.sl{
+    display: flex;
+}
+.last{
+    margin-left: 200px;
+    margin-bottom: -100px;
+}
+#mail{
+    background-image: url(assests/mail.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 27px;
+    padding: 3px 27px;
+}
+#tele{
+    background-image: url(assests/phone-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 27px;
+    padding: 3px 27px;
+}
+#map{
+    background-image: url(assests/map.png);
+    background-repeat: no-repeat;
+    background-size: 25px 27px;
+    padding: 3px 27px;
+}
+.para{
+    /* text-align: center; */
+    color: white;
+    background-color: skyblue;
+    padding: 32px 280px ;
+}
+.map{
+    margin-left: 50px;
+}
+.sec{
+    text-align: center;
+}
+.sec input{
+    border: 2px solid grey;
+    height: 35px;
+    border-radius: 25px;
+    background-color: skyblue;
+    cursor: pointer;
+    background-image: url(assests/plus.png);
+    background-repeat: no-repeat;
+    background-size: 20px 24px;
+    background-position: 696px 1px;
+}
+.endd {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: white;
+}
+.end{
+    text-align: center;
+    background-color: skyblue;
+    height: 570px;
+}
+.f1 a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    margin: 50px;   
+}
+.f2 a{
+    text-decoration: none;
+    color: white;
+    margin: 55px;  
+}
+.f3 a{
+    text-decoration: none;
+    color: white;
+    margin: 50px; 
+}
+.f3 #input{
+    height: 30px;
+}
+.pic{
+   color: white; 
+}
